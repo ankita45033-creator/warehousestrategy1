@@ -1,5 +1,8 @@
 package warehouse.exception;
 
-public class BinOverFlowException {
-
+ class BinOverflowException extends Exception {
+    public BinOverflowException(String message) {
+        super(message);
+    }
 }
+
